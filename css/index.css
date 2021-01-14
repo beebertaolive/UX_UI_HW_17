@@ -1,0 +1,53 @@
+.inline-block {
+display: inline-block;
+vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    margin: red;
+    }
+
+nav {
+    width: 73%;
+    padding: 1%;
+    background-color: grey;
+    color: black;
+}
+ul {
+ width: 50%;
+ margin-left: auto;
+ padding: 1%;   
+}
+
+.heroImg {
+    height: 600px;
+    padding: 10px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+  background-color: #373738; 
+}
+
+#bertaPhoto {
+    width: 45%;
+    height: 45%;
+}
+
+li {
+    padding: 1%;
+    vertical-align: top;
+    color: white;
+}
+
+.ulFooter {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+}
+
