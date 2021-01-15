@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="styleSheet" href="css/index.css">
     <title>Berta Oliveira Portfolio</title>
 </head>
 <body>
     <header class="navigation">
-        <div class="inline-block logo">
-            <img src="images/berta_logo.png">  
-        </div>
-        <nav class="inline-block">   
-                <a class="inline-block">Portfolio</a>
-                <a class="inline-block">Me :)</a>
-                <a class="inline-block">My Work</a>
-                <a class="inline-block">Let's Talk!</a>
+     
+        <nav class="inline-block">
+            <div class="inline-block logo">
+                <img src="images/berta_logo.png">  
+            </div>
+                <ul>   
+                <li class="inline-block">Portfolio</li>
+                <li class="inline-block">Me :)</li>
+                <li class="inline-block">My Work</li>
+                <li class="inline-block">Let's Talk!</li>
+                </ul>    
         </nav>
     </header>
     <section class="heroImg">
         <div class="content">
             <img id="bertaPhoto" src="images/berta_photo.png">
-           <img id="background" src="images/flags_background.png">
+           <!-- <img id="background" src="images/flags_background.png"> -->
             <p>
                 UX/ UI Designer, former International Flight Attendant<br>
                 Certificate in UX/UI Design from the University of Utah<br>
@@ -34,6 +41,60 @@
             <button>Download Resume</button>
         </div>
     </section>
+
+    <div class="container">
+    <section class="mySkills">
+        <h1>My UX Skills</h1>
+        <div class="flexContainer">
+            <div class="skill1">
+            <img src="" alt="">
+            <h3>NAME OF SKILL</h3>
+            <p>DESCRIBE SKILL HERE</p>
+            </div>
+            <div class="skill2">
+                <img src="" alt="">
+                <h3>NAME OF SKILL</h3>
+                <p>DESCRIBE SKILL HERE</p>
+                </div>
+                <div class="skill3">
+                    <img src="" alt="">
+                    <h3>NAME OF SKILL</h3>
+                    <p>DESCRIBE SKILL HERE</p>
+                    </div>
+        </div>
+    </section>
+
+    <section class="myWork">
+        <h1>My UX Work</h1>
+        <div class="workGrid">
+            <div class="ex1">
+            <div class="leftImg"></div>
+            <div class="righContent">
+                <h4>WORK EXAMPLE</h4>
+                <p>SHORT DESCRIPTION OF WORK</p>
+                <button class="workBtn">EXAMPLE</button>
+            </div>
+        </div>
+            <div class="ex2">
+                <div class="leftImg2"></div>
+            <div class="righContent2">
+                <h4>WORK EXAMPLE2</h4>
+                <p>SHORT DESCRIPTION OF WORK2</p>
+                <button class="workBtn">EXAMPLE2</button>
+            </div>
+        </div>
+        <div class="ex3">    
+        <div class="leftImg3"></div>
+            <div class="righContent3">
+                <h4>WORK EXAMPLE3</h4>
+                <p>SHORT DESCRIPTION OF WORK3</p>
+                <button class="workBtn">EXAMPLE3</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <h3 class="viewAll">View All Projects</h3>
+</div>
     <footer>
         <ul class="ulFooter">
             <li class="inline-block">Portfolio</li>
