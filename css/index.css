@@ -87,12 +87,6 @@ h4  {
     padding: 3%;
     outline: 1px solid red
 }
-.workGrid {
-    display: flex;
-    margin: 0 auto;
-    width: 90%;
-    outline: 1px solid red
-}
 
 .skill1,
 .skill2,
@@ -150,19 +144,7 @@ h4  {
     width: 10vw;
     align-items: center;
 }
-/*.leftImg,
-.leftImg2,
-.leftImg3 {
-    grid-row: 1fr;
+/* jan 19 - tutor*/
+@media only screen and (max-width: 600) {
     
-    
-}
-
-
-.rightContent,
-.rightContent2,
-.rightContent3 {
-    grid-row: 1fr;
-    grid-column: 1fr;
-    outline: 1px solid red;
 }
